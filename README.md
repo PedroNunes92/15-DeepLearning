@@ -1,6 +1,6 @@
 ## Introducao a DeepLearning
 
-### Container para desenvolvimento:
+#### Container para desenvolvimento
 
 * Keras
 * Tensorflow 2.1
@@ -14,3 +14,7 @@ sudo docker run --gpus all -v /home/silvio/git:/tf -p 8888:8888 --user $(id -u):
 * (-p 8888:8888) Mapeia porta 8888 interna para porta 8888 do host
 
 
+#### Container para treino
+
+* Script para treino do modelo
+* Salva métricas de desempenho, tempo de execução e pesos gerados
